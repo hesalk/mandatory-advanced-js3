@@ -37,7 +37,7 @@ class login extends Component{
             <label htmlFor="pw">Passowrd
             <input type="password" id="pw" value={this.state.pw} onChange={this.pwchange} />
             </label>
-            <button onClick={this.onclick} />
+            <button onClick={this.onclick}>Login</button>
         </div>
         )
     }
